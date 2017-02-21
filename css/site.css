@@ -1,0 +1,77 @@
+﻿.navbar-inverse {
+    background-color: #616161; 
+    border-color: #616161;
+}
+
+.notes-header {
+    background-color: rgba(83, 109, 254, 0.2); 
+}
+
+    .notes-header h4 {
+        color: #9d9d9d;
+    }
+
+.person-grid_wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.person-grid {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.pull-down {
+    margin: 100px 0 100px 0;
+}
+
+.secondary {
+    font-size: 0.80em;
+    color: lightslategray;
+}
+
+.stiff {
+    margin-bottom: 1em;
+}
+
+.not-so-stiff {
+    margin-bottom: 0.5em;
+}
+
+button.k-primary {
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+#grid > div.k-grouping-header {
+    background-color: #fff;
+}
+
+.secondary-emphasis {
+    font-style: italic;
+}
+
+.k-grid-header table th > .k-link > .k-icon {
+    position: relative;
+    left: 2px;
+}
+
+.k-grid-custom-group-ctl {
+    display: inline-block;
+}
+
+.k-grid-pager {
+    border-bottom-width: 1px;
+}
+
+div.col-md-4 > .k-grid-custom-group-ctl > span > span > input {
+    border-bottom: 1px solid #bfbfbf;
+}
+
+    div.col-md-4 > .k-grid-custom-group-ctl > span > span > input:hover {
+        border-color: #007cc0;
+    }
+
+.k-pager-wrap {
+    background-color: #fff;
+}

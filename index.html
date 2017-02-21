@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kendo Custom Headers Demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/kendo.common-fiori.min.css" />
+    <link rel="stylesheet" href="css/kendo.fiori.min.css" />
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Kendo Labs : Grid :: Stacked Headers</a>
+            </div>
+            <div class="navbar-collapse collapse">
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        <div class="pull-down">
+            <ul class="list-group">
+                <li class="list-group-item notes-header"><h4>Notes</h4></li>
+                <li class="list-group-item">This is not a one-off implementation of multi-column headers</li>
+                <li class="list-group-item">Each and every header is sortable, filterable, and groupable</li>
+                <li class="list-group-item">All other grid operations function normally</li>
+                <li class="list-group-item">Due to internal grid methods such as <em>leafDataCells</em>, and its usage within <em>_createResizeHandle</em>, the resize handle is only drawn for the header cells on the bottom row.</li>
+            </ul>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="example">
+                        <div id="grid"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <footer>
+            <p>&copy; 2017 - Daniel Kemper</p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scripts/kendo.all.min.js"></script>
+    <script src="scripts/grid-stacked-headers.js"></script>
+</body>
+</html>
